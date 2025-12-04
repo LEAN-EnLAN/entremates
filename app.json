@@ -1,32 +1,26 @@
 {
   "expo": {
-    "name": "plasma-spirit",
+    "name": "Entremates",
     "slug": "entremates",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "plasmaspirit",
+    "scheme": "entremates",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F172A"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.pulpocodesorganization.entremates",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "bundleIdentifier": "com.pulpocodesorganization.entremates"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F172A"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
       "package": "com.pulpocodesorganization.entremates"
     },
     "web": {
@@ -41,11 +35,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "76e75145-089d-4edb-ade4-026e01ab9c96"
-      }
-    },
-    "owner": "pulpo-codes-organization"
+      "router": {}
+    }
   }
 }
